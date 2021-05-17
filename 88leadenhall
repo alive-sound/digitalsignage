@@ -16,3 +16,31 @@
 </div>
 </body>
 </html>
+.container {
+  width: 1920px;
+  height: 324px;
+  background: #1f567c;
+  display: flex;
+  align-items: centre;
+  justify-content: centre;
+  flex-direction: column;
+}
+.widget {
+  float: centre;
+  background: #1f567c;
+  display: flex;
+  align-items: centre;
+  justify-content: centre;
+  flex-direction: column-reverse;
+}
+
+h1.weather-heading {
+  color: white;
+  font-size: 40px;
+  padding-bottom: 30px;
+  font-family: Verdana;
+}
+.widget {
+  width: 1920px;
+  height: 214px;
+}
